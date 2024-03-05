@@ -28,6 +28,9 @@ jobs:
       - name: build
         run: npm run build
 
+      - name: Install Chrome dependencies
+        run: sudo apt-get install -y libxss1 libappindicator1 libindicator7
+
       - name: Setup ChromeDriver
         uses: nanasess/setup-chromedriver@v2
         with:
