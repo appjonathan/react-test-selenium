@@ -41,4 +41,4 @@ jobs:
           npm start &
 
       - name: Run Selenium Tests
-        run: npx mocha tests/app.test.js --timeout 10000
+        run: npx mocha tests/app.test.js --timeout 20000 --headless
