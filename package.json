@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts tests/app.test.js",
+    "test": "npx mocha tests/app.test.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
